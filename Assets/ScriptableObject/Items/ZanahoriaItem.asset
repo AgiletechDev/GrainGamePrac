@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e2ac524f4c4a34f8cb76ae9c76311b, type: 3}
-  m_Name: ZanahoriaItem 2
+  m_Name: ZanahoriaItem
   m_EditorClassIdentifier: 
   ID: 3
   Nombre: Zanahoria
