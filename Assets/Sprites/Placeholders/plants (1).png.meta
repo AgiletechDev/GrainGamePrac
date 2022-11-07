@@ -851,13 +851,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants (1)_35
+      name: TomateItem
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 64
+        x: 6
+        y: 4
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -893,13 +893,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants (1)_37
+      name: ZanahoriaItem
       rect:
         serializedVersion: 2
-        x: 64
+        x: 66
         y: 0
-        width: 32
-        height: 64
+        width: 24
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -977,13 +977,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants (1)_41
+      name: MaizItem
       rect:
         serializedVersion: 2
-        x: 192
+        x: 197
         y: 0
-        width: 32
-        height: 64
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1008,8 +1008,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      ZanahoriaItem: -916163914
       "Ma\xEDz3": -1958804248
       "Ma\xEDz2": 1262897256
+      TomateItem: 1021996403
       a: 740571346
       plants (1)_5: 966108986
       plants (1)_32: 103679826
@@ -1026,8 +1028,7 @@ TextureImporter:
       plants (1)_38: 1786880225
       plants (1)_11: -771808134
       plants (1)_2: 58888995
-      plants (1)_35: 1021996403
-      plants (1)_41: 1263617145
+      Tomate1: 1240493481
       plants (1)_31: -914796843
       plants (1)_9: -538342155
       plants (1)_39: -707464974
@@ -1038,7 +1039,6 @@ TextureImporter:
       plants (1)_7: 674029384
       plants (1)_29: 611808336
       plants (1)_19: 1478794176
-      Tomate1: 1240493481
       plants (1)_1: -1013365849
       plants (1)_25: 94953789
       plants (1)_22: 2007062725
@@ -1047,8 +1047,8 @@ TextureImporter:
       plants (1)_8: -1453849595
       plants (1)_16: -1036429566
       plants (1)_3: 2110556980
+      MaizItem: 1263617145
       Tomate3: -1812574660
-      plants (1)_37: -916163914
       plants (1)_34: -210564253
   spritePackingTag: 
   pSDRemoveMatte: 0
