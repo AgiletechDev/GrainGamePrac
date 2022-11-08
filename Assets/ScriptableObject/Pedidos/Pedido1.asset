@@ -21,9 +21,6 @@ MonoBehaviour:
   CantidadProducto2: 1
   DescripcionProducto2: Se necesitan zanahorias
   DineroPorVenta: 500
-  recompensaPorVentaItem:
-    Dinero: {fileID: 0}
-    Cantidad: 500
-  CantidadProductoActual1: 0
-  CantidadProductoActual2: 0
-  PedidoCompletadoCheck: 0
+  CantidadProductoActual1: 1
+  CantidadProductoActual2: 1
+  PedidoCompletadoCheck: 1

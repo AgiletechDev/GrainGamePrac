@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e2ac524f4c4a34f8cb76ae9c76311b, type: 3}
+  m_Name: AjiItem
+  m_EditorClassIdentifier: 
+  ID: 4
+  Nombre: Zanahoria
+  Icono: {fileID: -707464974, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
+  Descripcion: "Un Aj\xED!"
+  EsAcumulable: 1
+  AcumulacionMax: 20
+  Cantidad: 0

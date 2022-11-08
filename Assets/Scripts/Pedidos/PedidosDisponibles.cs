@@ -26,7 +26,6 @@ public class PedidosDisponibles : ScriptableObject
 
     [Header("Dinero por venta")]
     public int DineroPorVenta;
-    public PedidoDineroPorVenta recompensaPorVentaItem;
 
     //[HideInInspector]
     public int CantidadProductoActual1;
@@ -57,17 +56,11 @@ public class PedidosDisponibles : ScriptableObject
         {
             return;
         }
+
         PedidoCompletadoCheck = true;
         EventoPedidoCompletado?.Invoke(this);
 
     }
 
-
-    [Serializable]
-    public class PedidoDineroPorVenta
-    {
-        public InventarioItem Dinero;
-        public int Cantidad;
-    }
 
 }
