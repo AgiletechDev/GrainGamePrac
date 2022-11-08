@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -8,12 +9,16 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject panelPedidos;
 
+    [SerializeField] private Text monedasActuales;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
             ActivarPanelPedidos();
         }
+
+        monedasActuales.text = MonedasManager.Instance.MonedasTotales.ToString();
     }
 
     public void ActivarPanelPedidos()

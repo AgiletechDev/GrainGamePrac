@@ -12,10 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8619a976db37340a141b4f53ad4c53, type: 3}
   m_Name: Pedido2
   m_EditorClassIdentifier: 
-  IDPedido: 2
   PedidoNombre: Pedido2
-  NecesitaManzana: 2
-  DescripcionManzana: Se necesitan manzanas!
-  "NecesitaPi\xF1a": 2
-  "DescripcionPi\xF1a": "Se necesitan pi\xF1as!"
+  ID: Pedido2
+  Item1: {fileID: 11400000, guid: 8a5ecc59d3f82834da10d3ff9ae24cd0, type: 2}
+  CantidadProducto1: 2
+  DescripcionProducto1: Se necesitan tomates
+  Item2: {fileID: 11400000, guid: 7ebba7ef686f9ff4d8679fb4611dd60d, type: 2}
+  CantidadProducto2: 2
+  DescripcionProducto2: Se necesitan zanahorias
   DineroPorVenta: 660
+  recompensaPorVentaItem:
+    Dinero: {fileID: 0}
+    Cantidad: 500
+  CantidadProductoActual1: 0
+  CantidadProductoActual2: 0
+  PedidoCompletadoCheck: 0

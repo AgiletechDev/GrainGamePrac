@@ -8,14 +8,14 @@ public class PedidosUI : MonoBehaviour
     [SerializeField] private Transform contenedorPedidos;
 
 
-    private List<PedidoVacio> pedidoVacioDisponible = new List <PedidoVacio> ();
+    private List<PedidoVacio> pedidoVacioDisponible = new List<PedidoVacio>();
 
     private void Start()
     {
         PanelPedidos();
     }
 
-    private void PanelPedidos ()
+    private void PanelPedidos()
     {
         for (int i = 0; i < Pedidos.Instance.NumeroPedidos; i++)
         {
@@ -27,5 +27,5 @@ public class PedidosUI : MonoBehaviour
         }
     }
 
-    
+
 }

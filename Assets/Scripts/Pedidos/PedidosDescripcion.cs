@@ -5,24 +5,18 @@ using UnityEngine.UI;
 
 public class PedidosDescripcion : MonoBehaviour
 {
+
     [SerializeField] private Text pedidoNombre;
-    [SerializeField] private Text pedidoDineroPorVenta;
-    [SerializeField] private Text pedidoDescripcionManzana;
-    [SerializeField] private Text pedidoDescripcionPiña;
+    [SerializeField] private Text pedidoDescripcionProducto1;
+    [SerializeField] private Text pedidoDescripcionProducto2;
+    [SerializeField] private Text dineroPorVenta;
+
 
     public virtual void ConfigurarPedidosUI(PedidosDisponibles pedidoPorCargar)
     {
-        pedidoNombre.text = pedidoPorCargar.PedidoNombre;
-        pedidoDescripcionManzana.text = pedidoPorCargar.DescripcionManzana;
-        pedidoDescripcionPiña.text = pedidoPorCargar.DescripcionPiña;
-
-        pedidoDescripcionManzana.text = $"{pedidoPorCargar.DescripcionManzana}" +
-                                        $"\n {pedidoPorCargar.NecesitaManzana}";
-        pedidoDescripcionPiña.text = $"{pedidoPorCargar.DescripcionPiña}" +
-                                     $"\n {pedidoPorCargar.NecesitaPiña}";
-        pedidoNombre.text = $"{pedidoPorCargar.PedidoNombre}";
-        pedidoDineroPorVenta.text = $"{pedidoPorCargar.DineroPorVenta}";
-
+        pedidoNombre.text = pedidoPorCargar.PedidoNombre.ToString();
+        pedidoDescripcionProducto1.text = pedidoPorCargar.DescripcionProducto1.ToString();
+        pedidoDescripcionProducto2.text = pedidoPorCargar.DescripcionProducto2.ToString();
+        dineroPorVenta.text = pedidoPorCargar.DineroPorVenta.ToString();
     }
-
 }

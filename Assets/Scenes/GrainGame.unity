@@ -689,6 +689,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359302133}
   m_CullTransparentMesh: 1
+--- !u!1 &417945736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417945737}
+  - component: {fileID: 417945739}
+  - component: {fileID: 417945738}
+  m_Layer: 5
+  m_Name: Monedas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &417945737
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417945736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1643826163}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 531, y: 473.09}
+  m_SizeDelta: {x: 271.6866, y: 103.8103}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &417945738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417945736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 75
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 75
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 200
+--- !u!222 &417945739
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417945736}
+  m_CullTransparentMesh: 1
 --- !u!1 &443631605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &567438817
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3210,6 +3290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelInventario: {fileID: 1895422194}
   panelPedidos: {fileID: 40378579}
+  monedasActuales: {fileID: 417945738}
 --- !u!4 &1539263434
 Transform:
   m_ObjectHideFlags: 0
@@ -3560,6 +3641,7 @@ RectTransform:
   - {fileID: 567438817}
   - {fileID: 40378580}
   - {fileID: 1650621251}
+  - {fileID: 417945737}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.044}
@@ -3585,7 +3667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1650621251
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4240,8 +4322,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1967290627}
-  - component: {fileID: 1967290626}
-  - component: {fileID: 1967290629}
   - component: {fileID: 1967290628}
   m_Layer: 0
   m_Name: PedidosManager
@@ -4250,21 +4330,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1967290626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967290625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74e35e40875f5e348a24f379b6747ef7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pedidosDisponibles:
-  - {fileID: 11400000, guid: da6b093caf117c1409a6fdd6114589ae, type: 2}
-  - {fileID: 11400000, guid: 20e10d9a110c507409ecdd51250da8eb, type: 2}
 --- !u!4 &1967290627
 Transform:
   m_ObjectHideFlags: 0
@@ -4289,24 +4354,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1967290625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df32e8c37e72ac945b40cfb64faf9209, type: 3}
+  m_Script: {fileID: 11500000, guid: 74e35e40875f5e348a24f379b6747ef7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PedidoVacioPrefab: {fileID: 7174955285029691735, guid: 80d63a76d69343c418ad13cc75fc36c3, type: 3}
+  pedidosDisponibles:
+  - {fileID: 11400000, guid: 4485a8d8b6c5f05408fdbde8eb22abe5, type: 2}
+  - {fileID: 11400000, guid: 5e43b03b7bc5c4f4d9e8097010cfea52, type: 2}
+  inspectorPedidoPrefab: {fileID: 2377663940375553997, guid: 80d63a76d69343c418ad13cc75fc36c3, type: 3}
   contenedorPedidos: {fileID: 1362387104}
---- !u!114 &1967290629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967290625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 628528f721f428d478c404ea9a79f9b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numeroPedidos: 2
 --- !u!1 &2098116121
 GameObject:
   m_ObjectHideFlags: 0
