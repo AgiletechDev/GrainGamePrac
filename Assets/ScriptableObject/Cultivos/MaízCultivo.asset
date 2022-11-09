@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c928863c196c33d4690d06dc1d83a8c5, type: 3}
   m_Name: "Ma\xEDzCultivo"
   m_EditorClassIdentifier: 
-  nombrePlanta: 
-  EstadoPlantas: []
-  tiempoEntreEstados: 0
+  nombrePlanta: Maiz
+  EstadoPlantas:
+  - {fileID: 2071405119, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
+  - {fileID: 1262897256, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
+  - {fileID: -1958804248, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
+  tiempoEntreEstados: 2

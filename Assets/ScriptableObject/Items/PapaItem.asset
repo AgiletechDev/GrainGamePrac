@@ -10,16 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e2ac524f4c4a34f8cb76ae9c76311b, type: 3}
-  m_Name: PapasItem
+  m_Name: PapaItem
   m_EditorClassIdentifier: 
   ID: 5
-<<<<<<< HEAD
-  Nombre: Papas
-=======
-  Nombre: Zanahoria
->>>>>>> 29af82aced5a30f109279c9bf840210a97eafa5c
+  Nombre: PapaItem
   Icono: {fileID: -1435612760, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
-  Descripcion: Unas papas!
+  Descripcion: Unas Papas!
   EsAcumulable: 1
   AcumulacionMax: 20
   Cantidad: 0
