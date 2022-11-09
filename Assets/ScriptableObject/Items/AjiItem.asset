@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AjiItem
   m_EditorClassIdentifier: 
   ID: 4
-  Nombre: Zanahoria
+  Nombre: Aji
   Icono: {fileID: -707464974, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
   Descripcion: "Un Aj\xED!"
   EsAcumulable: 1

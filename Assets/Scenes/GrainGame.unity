@@ -3279,14 +3279,14 @@ MonoBehaviour:
   panelContenedor: {fileID: 918793755}
   itemsDisponibles:
   - cantidadItems: 0
-    itemACraftear: {fileID: 11400000, guid: 7ebba7ef686f9ff4d8679fb4611dd60d, type: 2}
+    itemACraftear: {fileID: 11400000, guid: 78d6fbdb0a2c8c54facaa5a2673705f8, type: 2}
     itemNecesario1: {fileID: 11400000, guid: 8a5ecc59d3f82834da10d3ff9ae24cd0, type: 2}
     cantidadItem1: 2
     itemNecesario2: {fileID: 0}
     cantidadItem2: 0
   - cantidadItems: 1
     itemACraftear: {fileID: 11400000, guid: 8a5ecc59d3f82834da10d3ff9ae24cd0, type: 2}
-    itemNecesario1: {fileID: 11400000, guid: 7ebba7ef686f9ff4d8679fb4611dd60d, type: 2}
+    itemNecesario1: {fileID: 11400000, guid: 0508ecbabf9d4484dba63e03348798a7, type: 2}
     cantidadItem1: 1
     itemNecesario2: {fileID: 11400000, guid: 1991ecac9ef7eb9428360d70e9dc5842, type: 2}
     cantidadItem2: 5
@@ -7399,7 +7399,7 @@ MonoBehaviour:
   itemTiendaPrefab: {fileID: 6547495062071705447, guid: 315c2e352d4c2b64fb988de1c6c789d2, type: 3}
   panelContenedor: {fileID: 1560834226}
   itemsDisponibles:
-  - item: {fileID: 11400000, guid: 7ebba7ef686f9ff4d8679fb4611dd60d, type: 2}
+  - item: {fileID: 11400000, guid: 2687b5b30a3c72a458fd1313395b7f14, type: 2}
     costo: 50
   - item: {fileID: 11400000, guid: 8a5ecc59d3f82834da10d3ff9ae24cd0, type: 2}
     costo: 50
