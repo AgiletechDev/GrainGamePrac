@@ -884,13 +884,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants (1)_36
+      name: PapasItem
       rect:
         serializedVersion: 2
-        x: 32
+        x: 36
         y: 0
-        width: 32
-        height: 64
+        width: 24
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -926,13 +926,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants (1)_38
+      name: LechugaItem
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 64
+        x: 103
+        y: 4
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -947,13 +947,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants (1)_39
+      name: AjiItem
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 64
+        x: 135
+        y: 4
+        width: 18
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -968,13 +968,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plants (1)_40
+      name: PepinilloItem
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 64
+        x: 167
+        y: 3
+        width: 19
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1020,11 +1020,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      plants (1)_34: -210564253
+      ZanahoriaItem: -916163914
       "Ma\xEDz3": -1958804248
       "Ma\xEDz2": 1262897256
       TomateItem: 1021996403
       a: 740571346
+      LechugaItem: 1786880225
       plants (1)_5: 966108986
       plants (1)_32: 103679826
       plants (1)_12: 1598421615
@@ -1037,16 +1038,16 @@ TextureImporter:
       plants (1)_33: -66281052
       plants (1)_17: -1740953139
       plants (1)_4: 2113171804
-      plants (1)_38: 1786880225
-      plants (1)_11: -771808134
-      plants (1)_2: 58888995
       Tomate1: 1240493481
+      PepinilloItem: 1508213313
+      plants (1)_11: -771808134
+      AjiItem: -707464974
+      plants (1)_2: 58888995
+      PapasItem: -1435612760
       plants (1)_31: -914796843
       plants (1)_9: -538342155
-      plants (1)_39: -707464974
       "Ma\xEDz1": 2071405119
       TomateCosechado: -1293032643
-      plants (1)_40: 1508213313
       plants (1)_10: -1956330308
       plants (1)_7: 674029384
       plants (1)_29: 611808336
@@ -1054,14 +1055,13 @@ TextureImporter:
       plants (1)_1: -1013365849
       plants (1)_25: 94953789
       plants (1)_22: 2007062725
-      plants (1)_36: -1435612760
       plants (1)_30: -1979106185
       plants (1)_8: -1453849595
       plants (1)_16: -1036429566
       plants (1)_3: 2110556980
       MaizItem: 1263617145
       Tomate3: -1812574660
-      ZanahoriaItem: -916163914
+      plants (1)_34: -210564253
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,20 +1,52 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
+public enum TipoDeInteraccion
+{
+    Click,
+    Usar,
+    Equipar,
+    Remover
+}
 public class InventarioSlot : MonoBehaviour
 {
+    public static Action<TipoDeInteraccion, int> EventoSlotInteraccion;
+
+    [SerializeField] private Image itemIcono;
+    [SerializeField] private GameObject fondoCantidad;
+    [SerializeField] private TextMeshProUGUI cantidadTMP;
+
     public int Index { get; set; }
 
-    // Start is called before the first frame update
-    void Start()
+    public void ActualizarSlot(InventarioItem item, int cantidad)
     {
-        
+        itemIcono.sprite = item.Icono;
+        cantidadTMP.text = cantidad.ToString();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ActivarSlotUI(bool estado)
     {
-        
+        itemIcono.gameObject.SetActive(estado);
+        fondoCantidad.SetActive(estado);
     }
+
+    public void ClickSlot()
+    {
+        EventoSlotInteraccion?.Invoke(TipoDeInteraccion.Click, Index);
+
+
+        //Mover Item
+        if (InventarioUI.Instance.IndexSlotInicialPorMover != -1)
+        {
+            if (InventarioUI.Instance.IndexSlotInicialPorMover != Index)
+            {
+                Inventario.Instance.MoverItem(InventarioUI.Instance.IndexSlotInicialPorMover, Index);
+            }
+        }
+    }
+
 }

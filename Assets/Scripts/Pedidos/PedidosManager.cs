@@ -12,7 +12,7 @@ public class PedidosManager : MonoBehaviour
     [SerializeField] private Transform contenedorPedidos;
 
 
-    public PedidosDisponibles PedidoPorReclamar { get; private set; }
+    public PedidosDisponibles PedidoPorEntregar { get; private set; }
 
     private void Start()
     {
@@ -24,6 +24,7 @@ public class PedidosManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             AñadirProgreso("Pedido1", 1);
+            AñadirProgreso("Pedido2", 1);
         }
 
         if (Input.GetKeyDown(KeyCode.X))
@@ -63,19 +64,14 @@ public class PedidosManager : MonoBehaviour
 
     public void ReclamarRecompensa()
     {
-
-        if (PedidoPorReclamar == null)
+        if (PedidoPorEntregar == null)
         {
             return;
-        }
-
-        if (PedidoPorReclamar.PedidoCompletadoCheck == true)
-        {
-
-            MonedasManager.Instance.AñadirMonedas(PedidoPorReclamar.DineroPorVenta);
-            PedidoPorReclamar = null;
 
         }
+
+        MonedasManager.Instance.AñadirMonedas(PedidoPorEntregar.DineroPorVenta);
+        PedidoPorEntregar = null;
 
     }
 }
