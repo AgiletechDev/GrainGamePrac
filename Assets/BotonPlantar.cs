@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BotonPlantar : MonoBehaviour
 {
-    private Parcela parcela;
+    /*private Parcela parcela;
 
     private void Start()
     {
@@ -16,5 +16,5 @@ public class BotonPlantar : MonoBehaviour
     {
         parcela.SePuedePlantar = true;
    
-    }
+    }*/
 }

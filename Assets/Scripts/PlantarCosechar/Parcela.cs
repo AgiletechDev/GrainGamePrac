@@ -8,6 +8,8 @@ public class Parcela : MonoBehaviour
     public bool SePuedePlantar;
     public bool SePuedeCosechar;
 
+    private int cantidad;
+
     bool Plantado = false;
     public SpriteRenderer plantar;
 
@@ -15,6 +17,8 @@ public class Parcela : MonoBehaviour
     float tiempo;
 
     public Plantas PlantaSeleccionada;
+
+    
 
     private void Start()
     {
@@ -62,13 +66,14 @@ public class Parcela : MonoBehaviour
         else
         {
             Plantar();
+
         }
 
     }
 
     private void Cosechar()
     {
-        if (SePuedeCosechar)
+        if (SePuedeCosechar == true)
         {
             Plantado = false;
             plantar.gameObject.SetActive(false);
@@ -79,6 +84,8 @@ public class Parcela : MonoBehaviour
     {
         if (SePuedePlantar == true)
         {
+            
+
             SePuedeCosechar = false;
             Plantado = true;
             EstadoPlanta = 0;
@@ -92,6 +99,18 @@ public class Parcela : MonoBehaviour
     private void ActualizarCultivo()
     {
         plantar.sprite = PlantaSeleccionada.EstadoPlantas[EstadoPlanta];
+    }
+
+    public void sePuedePlantar()
+    {
+        SePuedePlantar = false;
+        SePuedeCosechar = true;
+    }
+
+    public void sePuedeCosechar()
+    {
+        SePuedePlantar = true;
+        SePuedeCosechar = false;
     }
 
 }

@@ -5,18 +5,20 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public bool EnMovimiento => _direccionMovement.magnitude > 0f;
+    public Vector2 DireccionMovimiento => _direccionMovement;
+
     private Rigidbody2D rb2d;
     private Vector2 _input, _direccionMovement;
     [SerializeField] private float velocidad;
 
-
-    private Animator animator;
+    //private Animator animator;
 
 
     private void Awake()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -28,12 +30,15 @@ public class PlayerMovement : MonoBehaviour
         _direccionMovement.y = (_input.y > 0.1f) ? 1f : (_input.y < -0.1f) ? -1f : 0f;
 
 
-        if (_direccionMovement.x <= 0.1)
+        /*if (_direccionMovement.x <= 0.1)
         {
             animator.SetFloat("CaminarIzquierda", Mathf.Abs(_direccionMovement.x));
         }
 
-
+        if (_direccionMovement.x <= 0.1)
+        {
+            animator.SetFloat("CaminarIzquierda", Mathf.Abs(_direccionMovement.x));
+        }*/
 
     }
 
