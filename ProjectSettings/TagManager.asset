@@ -54,3 +54,6 @@ TagManager:
   - name: Parcelas
     uniqueID: 1733357277
     locked: 0
+  - name: Player
+    uniqueID: 962958917
+    locked: 0

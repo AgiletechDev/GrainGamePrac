@@ -33,4 +33,9 @@ public class ItemTaller : MonoBehaviour
         ConfigurarItems(item);
         itemNecesario2Img.sprite = item.itemNecesario2.Icono;
     }
+
+    public void Comprar()
+    {
+
+    }
 }

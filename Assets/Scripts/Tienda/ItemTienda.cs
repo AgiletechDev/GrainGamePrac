@@ -39,7 +39,7 @@ public class ItemTienda : MonoBehaviour
     {
         if (MonedasManager.Instance.MonedasTotales >= costoActual)
         {
-            /*Inventario.Instance.AñadirItem(ItemCargado.item, cantidad);*/
+            Inventario.Instance.AñadirItem(ItemCargado.item, cantidad);
             MonedasManager.Instance.RemoverMonedas(costoActual);
             cantidad = 1;
             costoActual = costoInicial;
