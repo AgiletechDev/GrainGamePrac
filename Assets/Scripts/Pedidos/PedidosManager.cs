@@ -29,7 +29,7 @@ public class PedidosManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            ReclamarRecompensa();
+            /*ReclamarRecompensa();*/
         }
     }
 
@@ -62,8 +62,10 @@ public class PedidosManager : MonoBehaviour
         return null;
     }
 
-    public void ReclamarRecompensa()
+   /* public void ReclamarRecompensa()
     {
+        
+
         if (PedidoPorEntregar == null)
         {
             return;
@@ -73,5 +75,5 @@ public class PedidosManager : MonoBehaviour
         MonedasManager.Instance.AñadirMonedas(PedidoPorEntregar.DineroPorVenta);
         PedidoPorEntregar = null;
 
-    }
+    }*/
 }
