@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: PapasItem
   m_EditorClassIdentifier: 
   ID: 5
+<<<<<<< HEAD
   Nombre: Papas
+=======
+  Nombre: Zanahoria
+>>>>>>> 29af82aced5a30f109279c9bf840210a97eafa5c
   Icono: {fileID: -1435612760, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
   Descripcion: Unas papas!
   EsAcumulable: 1
