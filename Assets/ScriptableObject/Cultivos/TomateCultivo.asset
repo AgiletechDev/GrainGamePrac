@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombrePlanta: Tomate
   EstadoPlantas:
-  - {fileID: 1240493481, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
-  - {fileID: 1423615981, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
-  - {fileID: -1812574660, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
+  - {fileID: -2122984627, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
+  - {fileID: -12296375, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
+  - {fileID: -857371468, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
   tiempoEntreEstados: 2

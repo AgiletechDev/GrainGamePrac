@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombrePlanta: Maiz
   EstadoPlantas:
-  - {fileID: 2071405119, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
-  - {fileID: 1262897256, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
-  - {fileID: -1958804248, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
+  - {fileID: -722512540, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
+  - {fileID: -1095945538, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
+  - {fileID: -1353750361, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
   tiempoEntreEstados: 2

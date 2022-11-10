@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d86fcf633f2b2a4881e9377da2c0d66
+guid: 9ef983f89c8dead4da01a8346502acb0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,379 +116,295 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dirt_0
+      name: Vistas personaje_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 32
-        height: 32
+        y: 645
+        width: 197
+        height: 383
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a48cf1e28df4eb642807eff8cd6b9e49
-      internalID: -136871604
+      spriteID: 0aa9eb370b066f849a9ce36dc76bc5c6
+      internalID: 615685209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_3
+      name: Vistas personaje_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 676
+        width: 224
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0083ce11d1b2de4a9a6e677c2b3ffc9
+      internalID: -770045957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vistas personaje_2
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 656
+        width: 197
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397323bc66d3ee4d8c1ebe3422b6691
+      internalID: -1803564343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vistas personaje_3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 645
+        width: 198
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aefdd774e9c3b64fa4d63b9ee89c197
+      internalID: 2108927236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vistas personaje_4
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 676
+        width: 224
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9545958a0b5f34f999ef92ab40c26b
+      internalID: 1204975349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vistas personaje_5
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 646
+        width: 197
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efda11760e20e2448825f4b3b026ae4b
+      internalID: -1836359675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vistas personaje_6
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 643
+        width: 178
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5118f72850157de46b8ff7e9ea4af884
+      internalID: -1910659548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vistas personaje_7
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 645
+        width: 179
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d234e5b4eceb184d8fbb1766b53039b
+      internalID: -1149945509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vistas personaje_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 32
-        height: 32
+        y: 196
+        width: 197
+        height: 381
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbd6214c8c3fe9748979d0f2726bc912
-      internalID: 1071056400
+      spriteID: 47da5f138c2ec38498427b8a16e340a8
+      internalID: 935989456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_4
+      name: Vistas personaje_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
+        x: 236
+        y: 226
+        width: 224
+        height: 351
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e6764ed0166794fa897995726e7c8d
-      internalID: 129703419
+      spriteID: 5f436886b4162e1408d35524b8cbd0f3
+      internalID: -721433919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_6
+      name: Vistas personaje_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
+        x: 499
+        y: 195
+        width: 198
+        height: 382
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3132fb9f01ddbc4eb525a898fd9a821
-      internalID: -219416259
+      spriteID: 0b8c4c5f793cba84f9b8e1ae5bf55a8e
+      internalID: 46552929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_7
+      name: Vistas personaje_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 735
+        y: 206
+        width: 197
+        height: 371
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fe5d6866edc8ae4492cea2bd429398f
-      internalID: -71460869
+      spriteID: 2b3ae9efb871e184bbd0f8f1fa165d15
+      internalID: 972082833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_8
+      name: Vistas personaje_12
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 971
+        y: 226
+        width: 224
+        height: 351
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 070e455d176de5d408abf2d7143d214d
-      internalID: -1104331096
+      spriteID: ddfeaeccf3259ab408965e769f1c9c88
+      internalID: -2003607025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt_9
+      name: Vistas personaje_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
+        x: 1226
+        y: 195
+        width: 196
+        height: 382
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e66a6b577d00144b9067d8b053761dc
-      internalID: 1941541466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_10
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e668fa8e539bfc4fbb6b7d720c1eb98
-      internalID: 1350618861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_11
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76d83944f8eba624e8cb21f5abf764be
-      internalID: -217418600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf6394956b01ed8459a88f9470afa7f9
-      internalID: -723447193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_13
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f868c9cce00890d419c417817ed80bd2
-      internalID: -410429441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_14
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 516a10e4c9321234582f3986822c09bd
-      internalID: -1723027564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12c223da5d96ee84495a9d3fbb5c0331
-      internalID: 1976419367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_16
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd6fa95f5896e4a46a76acc9f578ac4b
-      internalID: -889834949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_17
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cccd5fcca386edf4a85c22c84702c7a7
-      internalID: 20266272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ef6c84543bced74ba849b3897f6ea9d
-      internalID: 1874758994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11a944c2f91e94040837c9c32e03e07a
-      internalID: 342789296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01136bba875e7b84f893cc17b3a03931
-      internalID: 605528019
+      spriteID: c6f3770c2ee51c842bb48c3d04627fe1
+      internalID: -1914751132
       vertices: []
       indices: 
       edges: []
@@ -504,24 +420,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dirt_6: -219416259
-      dirt_12: -723447193
-      dirt_9: 1941541466
-      dirt_8: -1104331096
-      dirt_7: -71460869
-      dirt_15: 1976419367
-      dirt_11: -217418600
-      dirt_4: 129703419
-      dirt_14: -1723027564
-      dirt_10: 1350618861
-      dirt_5: 605528019
-      dirt_16: -889834949
-      dirt_1: 1874758994
-      dirt_2: 342789296
-      dirt_13: -410429441
-      dirt_17: 20266272
-      dirt_0: -136871604
-      dirt_3: 1071056400
+      Vistas personaje_3: 2108927236
+      Vistas personaje_6: -1910659548
+      Vistas personaje_13: -1914751132
+      Vistas personaje_1: -770045957
+      Vistas personaje_11: 972082833
+      Vistas personaje_8: 935989456
+      Vistas personaje_10: 46552929
+      Vistas personaje_5: -1836359675
+      Vistas personaje_7: -1149945509
+      Vistas personaje_2: -1803564343
+      Vistas personaje_0: 615685209
+      Vistas personaje_4: 1204975349
+      Vistas personaje_9: -721433919
+      Vistas personaje_12: -2003607025
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
