@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class TallerManager : Singleton<TallerManager>
@@ -8,6 +9,7 @@ public class TallerManager : Singleton<TallerManager>
     [SerializeField] private ItemTaller taller1ItemsCrafteo;
     [SerializeField] private ItemTaller taller2ItemsCrafteo;
     [SerializeField] private Transform panelContenedor;
+    [SerializeField] private TextMeshProUGUI textoResultado;
 
     [Header("Recetas")]
     //El "NonReorderable" es para solucionar un bug visual del unity
@@ -32,6 +34,18 @@ public class TallerManager : Singleton<TallerManager>
                 ItemTaller itemTaller = Instantiate(taller2ItemsCrafteo, panelContenedor);
                 itemTaller.ConfigurarItems2(itemsDisponibles[i]);
             }
+        }
+    }
+
+    public void MensajeResultado(bool sePuedoCraftear, string nombreItem)
+    {
+        if (sePuedoCraftear)
+        {
+            textoResultado.text = $"Se creo su {nombreItem} exitosamente";
+        }
+        else
+        {
+            textoResultado.text = $"No se pudo crear su {nombreItem}";
         }
     }
 }

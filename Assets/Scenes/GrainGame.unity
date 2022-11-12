@@ -6186,7 +6186,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2093714477
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -15926,6 +15926,7 @@ MonoBehaviour:
   taller1ItemsCrafteo: {fileID: -5681929492647220584, guid: 627e299229955264d900bc0dc6a19dd3, type: 3}
   taller2ItemsCrafteo: {fileID: -8885695956785110246, guid: 7b306dfe1bf478c4b9b8b1ba9b05b725, type: 3}
   panelContenedor: {fileID: 918793755}
+  textoResultado: {fileID: 1121341614}
   itemsDisponibles:
   - cantidadItems: 0
     itemACraftear: {fileID: 11400000, guid: 78d6fbdb0a2c8c54facaa5a2673705f8, type: 2}
@@ -16661,7 +16662,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1361703277}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1539263433}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: AbrirCerrarPanelTaller
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1361703277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19296,7 +19309,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -432815945
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -916163914, guid: 0790a809b4e8b774e8facd9d2cad4567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20153,7 +20166,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2093714477
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -26324,7 +26337,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 962958917
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5ba4e53d76ba17b4b8de91eb74d78567, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

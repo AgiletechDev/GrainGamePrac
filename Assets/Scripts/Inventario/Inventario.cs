@@ -149,4 +149,28 @@ public class Inventario : Singleton<Inventario>
 
         itemsInventario[index].RemoverItem();
     }
+
+    public void ConsumirItem(string itemID)
+    {
+        List<int> indexes = VerificarExistencias(itemID);
+        if (indexes.Count > 0)
+        {
+            EliminarItem(indexes[indexes.Count - 1]);
+        }
+    }
+
+    public int ObtenerCantidadDeItems(string itemID)
+    {
+        List<int> indexes = VerificarExistencias(itemID);
+        int cantidadTotal = 0;
+        foreach (int index in indexes)
+        {
+            if (itemsInventario[index].ID == itemID)
+            {
+                cantidadTotal += itemsInventario[index].Cantidad;
+            }
+        }
+
+        return cantidadTotal;
+    }
 }

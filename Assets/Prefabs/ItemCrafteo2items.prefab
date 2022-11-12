@@ -1150,7 +1150,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: -8885695956785110246}
         m_TargetAssemblyTypeName: ItemTaller, Assembly-CSharp
-        m_MethodName: Test
+        m_MethodName: Comprar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

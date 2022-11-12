@@ -9,7 +9,8 @@ public class TiendaManager : MonoBehaviour
     [SerializeField] private Transform panelContenedor;
 
     [Header("Items")]
-    [SerializeField] private ItemEnVenta[] itemsDisponibles;
+    //El "NonReorderable" es para solucionar un bug visual del unity
+    [SerializeField][NonReorderable] private ItemEnVenta[] itemsDisponibles;
 
     private void Start()
     {
