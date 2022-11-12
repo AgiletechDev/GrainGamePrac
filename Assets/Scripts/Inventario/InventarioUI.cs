@@ -92,6 +92,15 @@ public class InventarioUI : Singleton<InventarioUI>
         }
     }
 
+    /*public void RemoverItem()
+    {
+        if (SlotSeleccionado != null)
+        {
+            SlotSeleccionado.SlotRemoverItem();
+            SlotSeleccionado.SeleccionarSlot();
+        }
+    }*/
+
     #region Evento
 
     private void SlotInteraccionRespuesta(TipoDeInteraccion tipo, int index)
@@ -113,4 +122,6 @@ public class InventarioUI : Singleton<InventarioUI>
     }
 
     #endregion
+
+    
 }

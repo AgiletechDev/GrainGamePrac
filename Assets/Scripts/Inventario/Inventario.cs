@@ -114,4 +114,39 @@ public class Inventario : Singleton<Inventario>
         itemsInventario[indexInicial] = null;
         InventarioUI.Instance.DibujarItemEnInventario(null, 0, indexInicial);
     }
+
+    /*private void SlotInteraccionRespuesta(TipoDeInteraccion tipo,int index)
+    {
+        switch (tipo)
+        {
+            case TipoDeInteraccion.Remover:
+                break;
+        }
+    }*/
+
+    private void EliminarItem(int index)
+    {
+        ItemsInventario[index].Cantidad--;
+        if (itemsInventario[index].Cantidad <= 0)
+        {
+            itemsInventario[index].Cantidad = 0;
+            itemsInventario[index] = null;
+            InventarioUI.Instance.DibujarItemEnInventario(null, 0, index);
+        }
+        else
+        {
+            InventarioUI.Instance.DibujarItemEnInventario(itemsInventario[index],
+                itemsInventario[index].Cantidad, index);
+        }
+    }
+
+    private void RemoverItem(int index)
+    {
+        if (itemsInventario[index] == null)
+        {
+            return;
+        }
+
+        itemsInventario[index].RemoverItem();
+    }
 }
