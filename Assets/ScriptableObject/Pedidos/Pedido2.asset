@@ -17,9 +17,11 @@ MonoBehaviour:
   Item1: {fileID: 11400000, guid: 8a5ecc59d3f82834da10d3ff9ae24cd0, type: 2}
   CantidadProducto1: 2
   DescripcionProducto1: Se necesitan tomates
-  Item2: {fileID: 11400000, guid: 7ebba7ef686f9ff4d8679fb4611dd60d, type: 2}
+  ProductoIconoItem1: {fileID: 11400000, guid: 8a5ecc59d3f82834da10d3ff9ae24cd0, type: 2}
+  Item2: {fileID: 11400000, guid: 1991ecac9ef7eb9428360d70e9dc5842, type: 2}
   CantidadProducto2: 2
-  DescripcionProducto2: Se necesitan zanahorias
+  DescripcionProducto2: Se necesitan choclos
+  ProductoIconoItem2: {fileID: 11400000, guid: 1991ecac9ef7eb9428360d70e9dc5842, type: 2}
   DineroPorVenta: 660
   CantidadProductoActual1: 0
   CantidadProductoActual2: 0

@@ -42,11 +42,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Personaje
-    uniqueID: 3091844707
-    locked: 0
   - name: Items
     uniqueID: 3862151351
+    locked: 0
+  - name: Personaje
+    uniqueID: 3091844707
     locked: 0
   - name: Tilemap
     uniqueID: 2201252819

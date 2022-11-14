@@ -240,7 +240,7 @@ MonoBehaviour:
   SePuedePlantar: 0
   SePuedeCosechar: 0
   plantar: {fileID: 2869834966903392503}
-  PlantaSeleccionada: {fileID: 11400000, guid: bb2d7ecff8208dc478c8628cb5c13a01, type: 2}
+  PlantaSeleccionada: {fileID: 11400000, guid: eb3d5580f05037647bab3ab573b0dab0, type: 2}
 --- !u!50 &2869834967062115268
 Rigidbody2D:
   serializedVersion: 4

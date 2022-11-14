@@ -12,21 +12,12 @@ public class PedidosManager : MonoBehaviour
     [SerializeField] private Transform contenedorPedidos;
 
 
+
     public PedidosDisponibles PedidoPorEntregar { get; private set; }
 
     private void Start()
     {
         CargarPedidoEnInspector();
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            AñadirProgreso("Pedido1", 1);
-            AñadirProgreso("Pedido2", 1);
-        }
-
     }
 
     private void CargarPedidoEnInspector()
@@ -37,12 +28,6 @@ public class PedidosManager : MonoBehaviour
             InspectorPedidoDescripcion nuevoPedido = Instantiate(inspectorPedidoPrefab, contenedorPedidos);
             nuevoPedido.ConfigurarPedidosUI(pedidosDisponibles[i]);
         }
-    }
-
-    public void AñadirProgreso(string pedidoID, int cantidad)
-    {
-        PedidosDisponibles pedidoPorActualizar = PedidoExiste(pedidoID);
-        pedidoPorActualizar.AñadirProgreso(cantidad);
     }
 
     private PedidosDisponibles PedidoExiste(string pedidoID)

@@ -2076,8 +2076,8 @@ TextureImporter:
         y: 896
         width: 32
         height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.511322, y: 0.36558202}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3777,8 +3777,8 @@ TextureImporter:
         y: 768
         width: 32
         height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.48600197, y: 0.24805927}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7702,8 +7702,8 @@ TextureImporter:
       crops_114: 1744044371
       crops_274: -1261555616
       crops_3: -2039396408
-      crops_184: 627718692
       crops_196: -1652040290
+      crops_184: 627718692
       crops_281: 443599744
       crops_299: -455110052
       crops_165: -837651873

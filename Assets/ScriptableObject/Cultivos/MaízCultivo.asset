@@ -18,3 +18,5 @@ MonoBehaviour:
   - {fileID: -1095945538, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
   - {fileID: -1353750361, guid: f064f77e7e8df8a4e88d90331008d12e, type: 3}
   tiempoEntreEstados: 2
+  productoItem: {fileID: 11400000, guid: 1991ecac9ef7eb9428360d70e9dc5842, type: 2}
+  cantidadCosecha: 1

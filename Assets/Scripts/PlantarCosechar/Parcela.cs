@@ -8,8 +8,6 @@ public class Parcela : MonoBehaviour
     public bool SePuedePlantar;
     public bool SePuedeCosechar;
 
-    private int cantidad;
-
     bool Plantado = false;
     public SpriteRenderer plantar;
 
@@ -27,9 +25,6 @@ public class Parcela : MonoBehaviour
 
     private void Update()
     {
-        if (SePuedePlantar == true)
-
-        {
             if (Plantado)
             {
                 tiempo -= Time.deltaTime;
@@ -40,60 +35,53 @@ public class Parcela : MonoBehaviour
                     EstadoPlanta++;
                     ActualizarCultivo();
                 }
-            }
-            
-            return;
-        }
-
-        if (SePuedeCosechar)
-        {
-           
-        }
-        
+           }
     }
 
 
     private void OnMouseDown()
     {
-        if (Plantado)
-        {
 
-            if (EstadoPlanta == 3)
+        if (SePuedeCosechar == true)
+        {
+            if (Plantado)
             {
-                Cosechar();
+
+                if (EstadoPlanta == 3)
+                {
+                    Cosechar();
+                    Inventario.Instance.AñadirItem(PlantaSeleccionada.productoItem, PlantaSeleccionada.cantidadCosecha);
+                }
             }
         }
-        else
+        
+        else if (SePuedePlantar == true)
         {
             Plantar();
-
+            Inventario.Instance.ConsumirItem(PlantaSeleccionada.productoItem.ID);
         }
 
     }
 
     private void Cosechar()
     {
-        if (SePuedeCosechar == true)
-        {
             Plantado = false;
             plantar.gameObject.SetActive(false);
-        }
+
     }
 
     private void Plantar()
     {
-        if (SePuedePlantar == true)
-        {
-            
+        if (Inventario.Instance.ObtenerCantidadDeItems(PlantaSeleccionada.productoItem.ID) > 0)
 
-            SePuedeCosechar = false;
+        {
             Plantado = true;
             EstadoPlanta = 0;
             ActualizarCultivo();
             tiempo = PlantaSeleccionada.tiempoEntreEstados;
             plantar.gameObject.SetActive(true);
         }
-
+            
     }
 
     private void ActualizarCultivo()
