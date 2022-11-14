@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6800757100374760674}
   - component: {fileID: 3947340579048594570}
-  - component: {fileID: 1119091186781233578}
+  - component: {fileID: 2706909752865622176}
   m_Layer: 0
   m_Name: Arbol2
   m_TagString: Untagged
@@ -84,9 +84,9 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!61 &1119091186781233578
-BoxCollider2D:
+  m_SpriteSortPoint: 1
+--- !u!70 &2706909752865622176
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -98,16 +98,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.625, y: 4.5625}
-    newSize: {x: 2.9375, y: 4.28125}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.625, y: 4.5625}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.028625876, y: -0.52677006}
+  m_Size: {x: 0.76807946, y: 0.3884986}
+  m_Direction: 1
