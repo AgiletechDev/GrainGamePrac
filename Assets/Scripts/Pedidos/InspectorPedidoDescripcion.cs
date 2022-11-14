@@ -9,6 +9,7 @@ public class InspectorPedidoDescripcion : PedidosDescripcion
     public PedidosDisponibles PedidoPorEntregar { get; private set; }
 
 
+
     public override void ConfigurarPedidosUI(PedidosDisponibles pedidoPorCargar)
     {
         base.ConfigurarPedidosUI(pedidoPorCargar);
@@ -35,7 +36,6 @@ public class InspectorPedidoDescripcion : PedidosDescripcion
 
         MonedasManager.Instance.AñadirMonedas(PedidoPorEntregar.DineroPorVenta);
         PedidoPorEntregar = null;
-
         Destroy(this.gameObject);
 
     }

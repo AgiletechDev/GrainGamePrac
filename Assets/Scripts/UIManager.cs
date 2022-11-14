@@ -11,29 +11,26 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private GameObject panelTaller;
 
-    [SerializeField] private GameObject panelPedidos;
+    //[SerializeField] private GameObject panelPedidos;
 
     [SerializeField] private Text monedasActuales;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            ActivarPanelPedidos();
-        }
 
         monedasActuales.text = MonedasManager.Instance.MonedasTotales.ToString();
     }
 
-    public void ActivarPanelPedidos()
+    /*public void ActivarPanelPedidos()
     {
         panelPedidos.SetActive(true);
+
     }
 
     public void CerrarPanelPedidos()
     {
         panelPedidos.SetActive(false);
-    }
+    }*/
 
     public void AbrirCerrarPanelInventario()
     {
@@ -49,4 +46,7 @@ public class UIManager : MonoBehaviour
     {
         panelTaller.SetActive(!panelTaller.activeSelf);
     }
+
+
+
 }

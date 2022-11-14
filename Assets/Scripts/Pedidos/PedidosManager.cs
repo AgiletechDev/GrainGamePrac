@@ -27,10 +27,6 @@ public class PedidosManager : MonoBehaviour
             AñadirProgreso("Pedido2", 1);
         }
 
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            /*ReclamarRecompensa();*/
-        }
     }
 
     private void CargarPedidoEnInspector()
@@ -62,18 +58,4 @@ public class PedidosManager : MonoBehaviour
         return null;
     }
 
-   /* public void ReclamarRecompensa()
-    {
-        
-
-        if (PedidoPorEntregar == null)
-        {
-            return;
-
-        }
-
-        MonedasManager.Instance.AñadirMonedas(PedidoPorEntregar.DineroPorVenta);
-        PedidoPorEntregar = null;
-
-    }*/
 }
